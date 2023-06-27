@@ -21,7 +21,7 @@ int main() {
     // Dosyayi kapatma
     fclose(dosya);
 
-    // Dosyayi okuma modunda açma
+    // Dosyayi okuma modunda acma
     dosya = fopen("metin.txt", "r");
 
     if (dosya == NULL) {
